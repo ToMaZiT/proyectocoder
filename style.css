@@ -646,7 +646,7 @@ footer{
 
         display:grid;
         font-size: 35px;
-        padding: 50px;
+        padding: 0;
         
         
         
@@ -740,9 +740,9 @@ footer{
 
 .button-spoiler {
     
-    padding: 0 30px;
+    padding: 0 10px;
     margin: 0 30px;
-    width: 110px;
+    width: 120px;
     border-radius: 30px;
     font-size: 30px;
 
@@ -1107,6 +1107,11 @@ footer{
     }
     .story-sprites {
         padding-top: 15px;
+    }
+
+    .story-data-box {
+        width: 85%;
+        padding: 20px;
     }
 
 }   

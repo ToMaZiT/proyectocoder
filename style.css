@@ -1163,20 +1163,25 @@ footer{
 /* Inicio NavBar */
 
 .far-away.charactersnavbar {
-    background: linear-gradient(to bottom, #fff4db, #e6a8a0);
     height: 80px;
+    background-color: black;
+    border-bottom: 2px white solid;
+
   
 }
 
 /* Fin NavBar */
 
 .far-away.data, .far-away.omori {
-    background-color: #FFF4DB;
+    background-color: black;
+    border: white 1px solid;
+    color: white;
 }
 
 .far-away.body-characters {
-    background-image: none;
+    background-image: url(images/headspaceblack.png);
     background-color: #e6a8a0;
+
     
    
     

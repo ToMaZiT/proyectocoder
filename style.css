@@ -579,7 +579,7 @@ footer{
 }
 
 .omori {
-    padding: 20px 0 0 40px;
+    padding: 20px 20px 0 40px;
     margin: 0;
     font-size: 60px;
 }
@@ -616,6 +616,16 @@ footer{
 
 @media (max-width: 1080px){
 
+    .charactersinfo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 50px;
+        margin-top: 110px;
+    }
+
     .characterimage, .story-image {
         display: none;
     }
@@ -634,7 +644,10 @@ footer{
     }
     .omori, .data, .story-data {
 
-        display:grid
+        display:grid;
+        font-size: 35px;
+        padding: 50px;
+        
         
         
     }

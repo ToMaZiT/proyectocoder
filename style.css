@@ -570,7 +570,7 @@ footer{
     font-size: 40px;
 }
 
-.omori, .data {
+.omori, .data, .data-mari {
     background-color: white;
     font-size: 40px;
     padding: 20px;
@@ -1184,6 +1184,10 @@ footer{
     color: white;
 }
 
+.far-away.omori {
+    font-size: 45px;
+}
+
 .far-away.body-characters {
     background-image: url(images/headspaceblack.png);
     background-color: #e6a8a0;
@@ -1193,6 +1197,12 @@ footer{
     
     
 }
+
+.data-mari {
+    background-color: #FFFFFF;
+}
+
+
 
 
 

@@ -129,6 +129,8 @@ a {
     --bs-btn-hover-color: black;
     --bs-btn-hover-bg: rgb(202, 202, 202);
     --bs-btn-hover-border-color: black;
+    --bs-btn-active-bg: rgb(147, 147, 147);
+    --bs-btn-active-border-color: rgb(147, 147, 147);
    
 }
 /* btn-primary */
@@ -873,6 +875,7 @@ footer{
 
     display: flex;
     justify-content: space-between;
+    border-bottom: 2px solid #bab29e;
 
 }
 
@@ -928,6 +931,7 @@ footer{
 
     display: flex;
     text-align: center;
+    border: 2px solid #bab29e;
 }
 
 .story-argument-box {
@@ -935,6 +939,7 @@ footer{
     border-radius: 20px;
     width: 500px;
     text-align: center;
+    border: 2px solid #bab29e;
 }
 
 .story-argument {
@@ -946,6 +951,7 @@ footer{
     border-radius: 20px;
     width: 600px;
     text-align: center;
+    border: 2px solid #bab29e;
 }
 
 .story-title {
@@ -994,6 +1000,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid #bab29e;
 
 }
 

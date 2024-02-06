@@ -299,24 +299,54 @@ iframe {
 
 /* FOOTER */
 footer {
-    color: white;
-    font-family: "OMORI_GAME";
+    background-color: white;
 
     display: flex;
-    flex:auto;
+    justify-content: space-between;
     width: 100%;
     padding: 0;
+
+    margin-top: 70px;
+    
 }
 
-.info {
-
-    padding-right: 0px;
-    background-color: black;
+.footer-logo-container {
+    
+    padding-left: 50px;
+    width: 600px;
 }
 
-.copyright {
-    margin-left: 85%;
+.footer-logo {
+    width: 30px;
+    margin: 15px 30px 15px 0;
+    opacity: 50%;
 }
+
+
+
+.footer-info-container {
+  
+   display: flex;
+   justify-content: end;
+   align-items: center;
+   width: auto;
+   margin-right: 50px;
+}
+
+.footer-info {
+
+    
+    margin: 0;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.footer-info-container, .footer-logo-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 /* FOOTER */
 
 
@@ -343,11 +373,7 @@ footer {
   }
 
 @media (max-width: 920px) {
-footer{
-    
-    display:none;
 
-}
 
     
 
@@ -411,6 +437,32 @@ footer{
 
         display: none;
     }
+
+    footer {
+        display: list-item;
+        text-align: center;
+        
+    }
+
+     
+
+    .footer-logo {
+        margin: 15px 15px 15px 15px;
+    }
+
+    .footer-logo-container, .footer-info-container {
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+
+    .footer-info-container {
+        padding-bottom: 10px;
+    }
+
+    
   }
 
   @media (max-width: 425px){

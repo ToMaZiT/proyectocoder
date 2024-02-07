@@ -1,6 +1,3 @@
-/* Antes de empezar, quiero aclarar que se que en este trabajo hay bastantes elementos y cosas que no fueron parte de la consigna de esta tarea, pero quiero ir adelantando un poco el proyecto final en base a mis conocimientos previos, gracias */
-
-
 * {
 
     margin: 0;
@@ -320,6 +317,8 @@ footer {
     width: 30px;
     margin: 15px 30px 15px 0;
     opacity: 50%;
+
+    transition: all 0.4s ease;
 }
 
 
@@ -345,6 +344,10 @@ footer {
 .footer-info-container, .footer-logo-container {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.footer-logo:hover {
+    opacity: 100%;
 }
 
 /* FOOTER */

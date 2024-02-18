@@ -1,0 +1,51 @@
+.custom-navbar {
+
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: white;
+
+    .navhome {
+
+        /* Centrado de imagen */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* Centrado de imagen */
+
+        .story, .characters {
+
+            display: inline-block;
+            width: 600px;
+            text-align: center;
+            height: auto;
+            font-family: 'OMORI_GAME';
+            font-size: 30px;
+            margin: 0;
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+            
+            .link:hover {
+
+                text-decoration: underline;
+            }
+        
+        }
+
+        .omorilogo {
+
+            width: auto;
+            height: 80px;
+            
+            padding: 0 20px;
+        
+           
+        }
+    }   
+}

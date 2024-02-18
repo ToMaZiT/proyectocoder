@@ -1,0 +1,55 @@
+.charactersnavbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: #eadbff;  
+
+    .charactersnav {
+        display: flex;
+        justify-content: space-between;
+
+        .charactersomorilogo {
+    
+            height: auto;
+            width: 150px;
+            padding-top: 8px;
+            padding-left: 20px;
+        
+        }
+
+        .sprites {
+
+            text-align: center;
+            padding-top: 15px;
+            padding-right: 20px;
+
+            .sprite {
+
+                width: 50px;
+                height: auto;
+
+                @media (max-width: 720px) {
+                    width: 40px;
+                    height: auto;
+                    margin-top: 8px;
+                }
+
+                @media (max-width: 480px) {
+
+                display: none;
+                }
+            }
+
+            .sprite-responsive {
+                @media (max-width: 480px) {
+                    display: flex;
+                    width: 50px;
+                    margin-top: 0;
+                }
+            }
+        }
+    
+    }
+}

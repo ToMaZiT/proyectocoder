@@ -375,14 +375,6 @@ footer {
     }
   }
 
-@media (max-width: 920px) {
-
-
-    
-
-}
-
-
   @media (max-width: 768) {
 
     .fourth {
@@ -568,19 +560,12 @@ footer {
 
 /* Inicio Navbar */
 .charactersnavbar {
-
-    
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     height: 80px;
-    background-color: #eadbff;
-
-    
-
-    
-    
+    background-color: #eadbff;   
 }
 
 .charactersnav {
@@ -1253,9 +1238,6 @@ footer {
     
 }
 
-.data-mari {
-    background-color: #FFFFFF;
-}
 
 
 

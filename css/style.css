@@ -1,6 +1,6 @@
 /* Apartado Index */
 .body-home {
-  background-image: url(../../images/omoribackground.webp);
+  background-image: url(../images/omoribackground.webp);
 }
 
 * {
@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: "OMORI_GAME";
-  src: url("../../fonts/OMORI_GAME2.ttf") format("woff2");
+  src: url("../fonts/OMORI_GAME2.ttf") format("woff2");
 }
 .custom-navbar {
   position: absolute;
@@ -279,7 +279,7 @@ footer .footer-info-container, footer .footer-logo-container {
 /* Apartado Index */
 /* Apartado Characters */
 .body-characters {
-  background-image: url(../../images/headspace.png);
+  background-image: url(../images/headspace.png);
   font-family: "OMORI_GAME";
 }
 
@@ -536,7 +536,7 @@ footer .footer-info-container, footer .footer-logo-container {
 /* Apartado Spoiler */
 /* Apartado Story */
 .body-story {
-  background-image: url(../../images/headspace\ background.png);
+  background-image: url(../images/headspace\ background.png);
   background-size: 100%;
   font-family: "OMORI_GAME";
 }

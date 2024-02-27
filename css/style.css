@@ -425,7 +425,7 @@ footer .footer-info-container, footer .footer-logo-container {
 /* Apartado Characters */
 /* Apartado Far-Away Characters */
 .far-away.body-characters {
-  background-image: url(../../images/headspaceblack.png);
+  background-image: url(../images/headspaceblack.png);
   background-color: black;
 }
 
@@ -536,7 +536,7 @@ footer .footer-info-container, footer .footer-logo-container {
 /* Apartado Spoiler */
 /* Apartado Story */
 .body-story {
-  background-image: url(../images/headspace\ background.png);
+  background-image: url(../images/headspace-background.png);
   background-size: 100%;
   font-family: "OMORI_GAME";
 }
@@ -644,7 +644,7 @@ footer .footer-info-container, footer .footer-logo-container {
 }
 
 .story-background-image {
-  background-image: url(../../images/Hangout_Spot_29.webp);
+  background-image: url(../images/Hangout_Spot_29.webp);
   background-size: cover;
   margin-top: 10px;
   border-top: 20px solid #fff4db;

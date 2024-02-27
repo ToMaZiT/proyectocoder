@@ -543,10 +543,10 @@ footer .footer-info-container, footer .footer-logo-container {
 
 .story-navbar {
   height: 80px;
-  background-color: #fff4db;
+  background-color: #FFF4DB;
   display: flex;
   justify-content: space-between;
-  border-bottom: 2px solid #bab29e;
+  border-bottom: 2px solid #BAB29E;
 }
 .story-navbar .story-sprites {
   text-align: center;
@@ -586,11 +586,11 @@ footer .footer-info-container, footer .footer-logo-container {
   padding: 30px 0;
 }
 .story-introduction .story-title-box {
-  background-color: #fff4db;
+  background-color: #FFF4DB;
   border-radius: 20px;
   width: 600px;
   text-align: center;
-  border: 2px solid #bab29e;
+  border: 2px solid #BAB29E;
 }
 .story-introduction .story-title-box .story-title {
   font-size: 110px;
@@ -617,7 +617,7 @@ footer .footer-info-container, footer .footer-logo-container {
 }
 .story-introduction .story-text-box {
   font-size: 40px;
-  background-color: #fff4db;
+  background-color: #FFF4DB;
   padding: 20px 40px;
   width: 1000px;
   border-radius: 20px;
@@ -647,16 +647,16 @@ footer .footer-info-container, footer .footer-logo-container {
   background-image: url(../images/Hangout_Spot_29.webp);
   background-size: cover;
   margin-top: 10px;
-  border-top: 20px solid #fff4db;
+  border-top: 20px solid #FFF4DB;
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
 }
 .story-background-image .story-argument-box {
-  background-color: #fff4db;
+  background-color: #FFF4DB;
   border-radius: 20px;
   width: 500px;
   text-align: center;
-  border: 2px solid #bab29e;
+  border: 2px solid #BAB29E;
 }
 .story-background-image .story-argument-box .story-argument {
   font-size: 110px;
@@ -695,7 +695,7 @@ footer .footer-info-container, footer .footer-logo-container {
 }
 .story-background-image .story-content .story-data-box {
   font-size: 40px;
-  background-color: #fff4db;
+  background-color: #FFF4DB;
   padding: 20px 40px;
   width: 1048px;
   border-radius: 20px;
@@ -704,7 +704,7 @@ footer .footer-info-container, footer .footer-logo-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid #bab29e;
+  border: 2px solid #BAB29E;
 }
 .story-background-image .story-content .story-data-box .story-data {
   display: grid;

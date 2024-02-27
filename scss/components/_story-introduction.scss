@@ -1,14 +1,16 @@
+@import "../base/listas";
+
 .story-introduction {
     display: flex;
     justify-content: center;
     padding: 30px 0;
 
     .story-title-box {
-        background-color: #fff4db;
+        background-color: nth($colores, 1);
         border-radius: 20px;
         width: 600px;
         text-align: center;
-        border: 2px solid #bab29e;
+        border: 2px solid nth($colores, 2);
 
         .story-title {
             font-size: 110px;
@@ -34,7 +36,7 @@
 
     .story-text-box {
         font-size: 40px;
-        background-color: #fff4db;
+        background-color: nth($colores, 1);
         padding: 20px 40px;
         width: 1000px;
         border-radius: 20px;

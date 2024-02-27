@@ -1,17 +1,19 @@
+@import "../base/listas";
+
 .story-background-image {
     background-image: url(../images/Hangout_Spot_29.webp);
     background-size: cover;
     margin-top: 10px; 
-    border-top: 20px solid #fff4db;
+    border-top: 20px solid nth($colores, 1);
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
 
     .story-argument-box {
-        background-color: #fff4db;
+        background-color: nth($colores, 1);
         border-radius: 20px;
         width: 500px;
         text-align: center;
-        border: 2px solid #bab29e;
+        border: 2px solid nth($colores, 2);
 
         .story-argument {
             font-size: 110px;
@@ -53,7 +55,7 @@
 
         .story-data-box {
             font-size: 40px;
-            background-color: #fff4db;
+            background-color: nth($colores, 1);
             padding: 20px 40px;
             width: 1048px;
             border-radius: 20px;
@@ -63,7 +65,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            border: 2px solid #bab29e;
+            border: 2px solid nth($colores, 2);
             
             .story-data {
                 display:grid;

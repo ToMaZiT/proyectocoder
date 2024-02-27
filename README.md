@@ -3,7 +3,7 @@
 ## Sobre mí
 - 👨‍💻 Desarrollador web apasionado.
 - 🌟 18 años de edad.
-- 🌍 Basado en Argentina.
+- 🌍 Argentina.
 
 ## Experiencia
 - 💼 Actualmente trabajando en proyectos personales y ampliando mis habilidades como desarrollador web.

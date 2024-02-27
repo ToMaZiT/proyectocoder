@@ -1,9 +1,7 @@
 @import "../base/variables";
 
 .far-away.data, .far-away.omori {
-    background-color: black;
-    border: $bg-color-general 1px solid;
-    color: $bg-color-general;
+    @include far-away(black, $bg-color-general 1px solid)
 }
 
 .far-away.omori {

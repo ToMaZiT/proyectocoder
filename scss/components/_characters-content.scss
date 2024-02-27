@@ -9,9 +9,9 @@
 
     .omori, .data, .data-mari {
         background-color: $bg-color-general;
-        font-size: 40px;
-        padding: 20px;
-        border-radius: 20px;
+        font-size: map-get($font-characters, font-size-data);
+        padding: map-get($font-characters, padding-data);
+        border-radius: map-get($font-characters, border-radius-data);
         display: flex;
         justify-content: center;
         align-items: center;

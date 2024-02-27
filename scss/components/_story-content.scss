@@ -56,16 +56,8 @@
         .story-data-box {
             font-size: 40px;
             background-color: nth($colores, 1);
-            padding: 20px 40px;
-            width: 1048px;
-            border-radius: 20px;
-            text-align: center;
-            height: auto;
-        
-            display: flex;
-            justify-content: center;
-            align-items: center;
             border: 2px solid nth($colores, 2);
+            @extend %story-data-box;
             
             .story-data {
                 display:grid;

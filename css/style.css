@@ -1,3 +1,14 @@
+.story-background-image .story-content .story-data-box {
+  padding: 20px 40px;
+  width: 1048px;
+  border-radius: 20px;
+  text-align: center;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Apartado Index */
 .body-home {
   background-image: url(../images/omoribackground.webp);
@@ -696,14 +707,6 @@ footer .footer-info-container, footer .footer-logo-container {
 .story-background-image .story-content .story-data-box {
   font-size: 40px;
   background-color: #FFF4DB;
-  padding: 20px 40px;
-  width: 1048px;
-  border-radius: 20px;
-  text-align: center;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border: 2px solid #BAB29E;
 }
 .story-background-image .story-content .story-data-box .story-data {

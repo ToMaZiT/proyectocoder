@@ -1,0 +1,5 @@
+@mixin far-away($bg-color-far-away, $border) {
+    background-color: $bg-color-far-away;
+    border: $border;
+    color: $bg-color-general;
+}

@@ -455,6 +455,16 @@ footer .footer-info-container, footer .footer-logo-container {
 .far-away.omori {
   font-size: 45px;
 }
+@media (max-width: 720px) {
+  .far-away.omori {
+    font-size: 40px;
+  }
+}
+@media (max-width: 480px) {
+  .far-away.omori {
+    font-size: 30px;
+  }
+}
 
 /* Apartado Far-Away Characters */
 /* Apartado Spoiler */

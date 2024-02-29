@@ -6,4 +6,12 @@
 
 .far-away.omori {
     font-size: 45px;
+
+    @media (max-width:720px) {
+        font-size: 40px;
+    }
+
+    @media (max-width:480px) {
+        font-size: 30px;
+    }
 }

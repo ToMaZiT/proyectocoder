@@ -1,7 +1,7 @@
 # Hola, soy Tomás Flores! 👋
 
 ## Sobre mí
-- 👨‍💻 Desarrollador web apasionado.
+- 👨‍💻 Desarrollador web.
 - 🌟 18 años de edad.
 - 🌍 Argentina.
 

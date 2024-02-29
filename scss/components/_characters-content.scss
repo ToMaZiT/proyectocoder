@@ -87,8 +87,10 @@
     display: flex;
     justify-content: center;
 
-    .picnic:hover {
-        transform: scale(1.1);
-        transition: width 0.3s ease-in-out;
+    .picnic {
+        transition: all 0.1s ease;
+            &:hover {
+                transform: scale(1.05);
+            }
     }
 }
